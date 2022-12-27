@@ -1,0 +1,26 @@
+{
+  "name": "openai-image-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "preact": "^10.11.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "@types/node": "^18.11.13",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.0.1",
+    "prettier": "^2.8.1",
+    "typescript": "*",
+    "vite": "^4.0.0"
+  }
+}
