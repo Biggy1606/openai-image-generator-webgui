@@ -2,6 +2,8 @@
 
 This is a GUI for the [OpenAI image generation](https://openai.com/blog/image-gpt/) project.
 
+![UI_screen](img.png)
+
 ## How to use
 
 0. Install [Node.js](https://nodejs.org/en/) (tested with v16.19.0)
