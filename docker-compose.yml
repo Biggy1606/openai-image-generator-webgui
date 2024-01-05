@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  node:
+    image: node:current-alpine
+    user: "root"
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    ports:
+      - "5173:5173"
+    entrypoint: ["sh", "-c"]
+    command:
+      - |
+        apk add yarn &&
+        yarn install &&
+        yarn run dev
